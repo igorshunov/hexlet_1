@@ -1,0 +1,24 @@
+@font-face {
+    font-weight: 400;
+    font-family: "Poppins-Regular";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+  
+@font-face {
+font-weight: 700;
+font-family: "Poppins-Bold";
+src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+.logo {
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 251px;
+    height: 72px;
+    top: 45px;
+    left: 78px;
+    color: #0E0578;
+}
