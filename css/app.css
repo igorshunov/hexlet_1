@@ -10,6 +10,16 @@ font-family: "Poppins-Bold";
 src: url("../fonts/Poppins/Poppins-Bold.ttf");
 }
 
+.body{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo {
     font-family: "Poppins-Bold", sans-serif;
     font-size: 48px;
@@ -21,4 +31,26 @@ src: url("../fonts/Poppins/Poppins-Bold.ttf");
     top: 45px;
     left: 78px;
     color: #0E0578;
+    display: inline-block;
+}
+
+.nav{
+
+}
+
+.nav ul{
+    list-style-type: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding-left:1em;
+    padding-right: 1em;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0em;
+    color: #0E0578;
+
+
 }
