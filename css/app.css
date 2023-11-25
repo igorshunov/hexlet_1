@@ -11,27 +11,24 @@ src: url("../fonts/Poppins/Poppins-Bold.ttf");
 }
 
 .body{
-    padding-left: 5vw;
-    padding-right: 5vw;
+    margin: 2vw 5vw;
+    font-family: "Poppins-Regular", sans-serif;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .logo {
+    display: flex;
+    align-items: flex-end;
     font-family: "Poppins-Bold", sans-serif;
     font-size: 48px;
     line-height: 72px;
     letter-spacing: 0em;
     text-align: left;
-    width: 251px;
-    height: 72px;
-    top: 45px;
-    left: 78px;
     color: #0E0578;
-    display: inline-block;
 }
 
 .nav{
@@ -39,11 +36,14 @@ src: url("../fonts/Poppins/Poppins-Bold.ttf");
 }
 
 .nav ul{
+    display: flex;
+    align-items: flex-end;
     list-style-type: none;
 }
 
 .nav li{
-    display: inline-block;
+    display: flex;
+    align-items:flex-end;
     padding-left:1em;
     padding-right: 1em;
     font-family: "Poppins-Regular", sans-serif;
@@ -52,5 +52,11 @@ src: url("../fonts/Poppins/Poppins-Bold.ttf");
     letter-spacing: 0em;
     color: #0E0578;
 
+}
 
+.home {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
 }
