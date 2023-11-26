@@ -275,7 +275,7 @@ src: url("../fonts/Poppins/Poppins-Bold.ttf");
     display:flex;
     justify-content: left;
     align-items: center;
-    width: 327;
+    width: 327px;
     height: 94px;
     border: none;
     font-family: Poppins-Regular;
@@ -291,6 +291,6 @@ src: url("../fonts/Poppins/Poppins-Bold.ttf");
 .contact-img{
     display:flex;
     justify-content: right;
-    margin-right: -400  px;
+    /*margin-right: -0px;*/
     ;
 }
