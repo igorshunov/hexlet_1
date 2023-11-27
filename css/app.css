@@ -9,9 +9,21 @@
 }
   
 @font-face {
-font-weight: 700;
-font-family: "Poppins-Bold";
-src: url("../fonts/Poppins/Poppins-Bold.ttf");
+    font-weight: 700;
+    font-family: "Poppins-Bold";
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Jost-Regular";
+    src: url("../fonts/Jost/Jost-Regular.ttf");
+}
+  
+@font-face {
+    font-weight: 700;
+    font-family: "Jost-Bold";
+    src: url("../fonts/Jost/Jost-Bold.ttf");
 }
 
 .body{
@@ -131,6 +143,10 @@ src: url("../fonts/Poppins/Poppins-Bold.ttf");
     margin:0;
 }
 
+.dark-header {
+    color: #0E0578;
+
+}
 
 .main-text {
     font-family: Poppins-Regular;
@@ -175,7 +191,7 @@ src: url("../fonts/Poppins/Poppins-Bold.ttf");
     display:flex;
     justify-content: space-between;
     align-items: stretch;
-    padding: 0 5vw;
+    padding: 0 0 0 5vw;
 }
 
 .about-text {
@@ -232,8 +248,9 @@ src: url("../fonts/Poppins/Poppins-Bold.ttf");
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 5vw;
+    padding-left: 0;
     margin-right: -70px;
+    margin-left: 50px;
 }
 
 .text-field {
@@ -273,7 +290,7 @@ src: url("../fonts/Poppins/Poppins-Bold.ttf");
 
 .contact-button {
     display:flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     width: 327px;
     height: 94px;
@@ -292,14 +309,123 @@ src: url("../fonts/Poppins/Poppins-Bold.ttf");
     display:flex;
     justify-content: right;
     /*margin-right: -0px;*/
-    ;
+    
 }
 
 .finish {
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: stretch;
     background: #FFD69633;
     padding: 0 0 0 5vw;
+}
+
+.finish-body {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2em;
+}
+
+.finish-body p {
+    margin-bottom: 1.5em;
+    margin-top: 0;
+}
+
+.finish-body-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 3em 0 0;
+}
+
+.email-subscribe {
+    display:flex;
+    justify-content: flex-start;
+}
+
+.email {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 323px;
+    height: 97px;
+    border-radius: 30px;
+    background: #000000;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 178px;
+    height: 97px;
+    border-radius: 30px;
+    background: #F965FC;
+    margin-left: -150px;
+    z-index: 1;
+}
+
+.email-subscribe-text {
+    color: white;
+    font-family: Jost-Bold  ;
+    font-size: 31px;
+    line-height: 45px;
+    letter-spacing: 0em;
+    padding-left: 1em;
+}
+
+.finish-text-regular {
+    font-family: Jost-Regular;
+    font-size: 31px;
+    line-height: 45px;
+    letter-spacing: 0em;
+}
+
+.finish-text-bold {
+    font-family: Jost-Bold;
+    font-size: 31px;
+    line-height: 45px;
+    letter-spacing: 0em;
+}
+
+.hr {
+    display:flex;
+    flex-direction: row;
+    width: auto;
+    flex:1;
+    margin-right:3em;
+    border: 3px solid #000000;
+}
+
+.finish-footer {
+    display:flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-between;
+    flex:1;
+}
+
+.finish-footer-left {
+    display: flex;
+    align-items:center;
+    font-family: Jost-Regular;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: 0em;
+}
+
+.finish-footer-right {
+    display: flex;
+    align-items: center;
+    width: auto;
+    justify-content: right;
+    padding-right: 3em;
+}
+
+.finish-footer-right img {
+    padding-left: 3em;
 }
