@@ -32,6 +32,27 @@
     margin:0;
     font-family: "Poppins-Regular", sans-serif;
 }
+
+.body a:link {
+    text-decoration: none;
+    color: #0E0578;
+}
+
+.body a:visited {
+    text-decoration: none;
+    color: #0E0578;
+}
+
+.body a:hover {
+    text-decoration: none;
+    color: #0E0578;
+}
+
+.body a:active {
+    text-decoration: none;
+    color: #0E0578;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -160,6 +181,7 @@
     justify-content:left;
     padding-top:5em;
 }
+
 
 .button {
     display:flex;
@@ -365,7 +387,7 @@
     height: 97px;
     border-radius: 30px;
     background: #F965FC;
-    margin-left: -150px;
+    margin-left: -60px;
     z-index: 1;
 }
 

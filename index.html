@@ -8,10 +8,10 @@
             <span class="logo">UniDesign</span>
             <nav class="nav">
                 <ul>
-                    <li>About Me</li>
-                    <li>projects</li>
-                    <li>Contacts</li>
-                    <li>Hire Me</li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href="#hire">Hire Me</a></li>
                 </ul>
             </nav>
         </header>
@@ -19,16 +19,20 @@
         <main>
             <div class="home">
                 <div class="home-text">
-                    <p class="header1">Welcome To My portFolio</p>
+                    <p class="header1" id="hire">Welcome To My portFolio</p>
                     <p class="header2">Hi , I am Steven UI/UX <span class="yellow">Designer</span></p>
                     <p class="main-text">Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio et, plateo erat est sed turpis hoc equit</p>
                     <div class="buttons-container">
-                        <div class="button blue-button">
-                            Hire Me
-                        </div>
-                        <div class="button white-button">
-                            My project
-                        </div>
+                        <a href="#hire">
+                            <div class="button blue-button">
+                                Hire Me
+                            </div>
+                        </a>
+                        <a href="#projects">
+                            <div class="button white-button">
+                                My project
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="home-image">
@@ -38,12 +42,14 @@
             <div class="divider"></div>
             <div class="about">
                 <div class="about-text">
-                    <p class="header3">About Me</p>
+                    <p class="header3" id="about">About Me</p>
                     <p class="main-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has .</p>
                     <div class="buttons-container">
-                        <div class="button blue-button">
-                            Hire Me
-                        </div>
+                        <a href="#hire">
+                            <div class="button blue-button">
+                                Hire Me
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="home-image">
@@ -53,7 +59,7 @@
             <div class="divider"></div>
             <div class="projects">
                 <div class="in-section-divider"></div>
-                <p class="header4">My projects</p>
+                <p class="header4" id="projects">My projects</p>
                 <p class="main-text">Lorem Ipsum is simply dummy text of the printing</p>
                 <div class="img-collection-wrap">
                     <div class="img-collection">
@@ -73,7 +79,7 @@
             <div class="divider"></div>
             <div class="contact">
                 <div class="in-section-divider"></div>
-                <p class="header5">Contact Me</p>
+                <p class="header5" id="contact">Contact Me</p>
                 <p class="main-text">Lorem Ipsum is simply dummy text of the printing</p>
                 <div class="form">
                     <form class="fields">
@@ -94,14 +100,18 @@
                 <div class="finish-body">
                     <div class="finish-body-column">
                         <p class="header3 dark-header">UniDesign</p>
-                        <div class="email-subscribe">
-                            <div class="email email-subscribe-text">
-                                Email
+                        <form>
+                            <div class="email-subscribe">
+                                <div contenteditable="true" class="email email-subscribe-text">
+                                    Email
+                                </div>
+                                <a href="#hire">
+                                    <div class="subscribe email-subscribe-text">
+                                        Subscribe
+                                    </div>
+                                </a>
                             </div>
-                            <div class="subscribe email-subscribe-text">
-                                Subscribe
-                            </div>
-                        </div>
+                        </form>
                     </div>
                     <div class="finish-body-column">
                         <p class="finish-text-bold">Platform</p>
